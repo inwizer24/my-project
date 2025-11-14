@@ -1,0 +1,111 @@
+  .img {
+    float: left;
+    margin: 30px;
+		
+	
+            
+  }
+body{
+margin:0px;
+padding:0px;
+
+}
+#div_head{
+  height : 150px;
+  width : 1510px;
+  background-color: #1C1C1C; /* Устанавливает светло-серый фон */
+  font-family: Arial, sans-serif; /* Задает шрифт Arial */
+  color: #333; /* Устанавливает темный цвет текста */
+  padding: 20px;
+  margin:0px;
+  
+}
+#div_body{
+  height : auto;
+  position: absolute;
+  width : 1450px;
+  background-color: #2F2F2F; /* Устанавливает светло-серый фон */
+  font-family: Arial, sans-serif; /* Задает шрифт Arial */
+  color: #333; /* Устанавливает темный цвет текста */
+ padding: 30px;
+}
+#div_left{
+  height : 550px;
+  width : 400px;
+  float:left;
+  background-color: #3C3C3C; /* Устанавливает светло-серый фон */
+  font-family: Arial, sans-serif; /* Задает шрифт Arial */
+  color: #333; /* Устанавливает темный цвет текста */
+  
+}
+#div_right{
+  height : 550px;
+  width : 1030px;
+  float:right;
+  background-color: #3C3C3C; /* Устанавливает светло-серый фон */
+  font-family: Arial, sans-serif; /* Задает шрифт Arial */
+  color: #333; /* Устанавливает темный цвет текста */
+  ;
+}
+
+#div_center{
+  height : 100px;
+  width : 1450px;
+  
+  float:left;
+  background-color: #2F2F2F; /* Устанавливает светло-серый фон */
+  font-family: Arial, sans-serif; /* Задает шрифт Arial */
+  color: #333; /* Устанавливает темный цвет текста */
+   
+}
+#div_basement{
+  height : auto;
+  width : 1450px;
+  float:left;
+  background-color: #3C3C3C; /* Устанавливает светло-серый фон */
+  margin-top:20px;
+}
+
+
+.btn {
+  border: none;
+  font-family: 'Lato';
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+  margin-top: -30px;
+  padding:0px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 70;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 1s;
+}
+
+.btn-sep {
+  padding: 15px 15px 15px 15px; /* фон кнопок*/
+}
+
+
+.btn-2 {
+  background: #2F2F2F; /* цвет кнопок*/
+  color: #fff;
+}
+
+.btn-2:hover {
+  background: #3C3C3C; /* переход с одного состояния в другой */
+}
+
+.btn-2:active {
+  background: #2F2F2F;  /* состояние нажатия кнопок */
+  top: 2px;
+}
+
+
+
